@@ -1,0 +1,83 @@
+.navbar {
+	background-color: rgba(131, 98, 241, 255);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 100px;
+
+	.logo {
+		width: 65px;
+		height: 40px;
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.links {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		gap: 40px;
+		list-style: none;
+
+		li {
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			cursor: pointer;
+
+			.link {
+				color: #edddfc;
+				font-weight: 500;
+			}
+
+			.link.active {
+				background: #957ded;
+				padding: 10px 20px;
+				border-radius: 5px;
+			}
+
+			.notification-icon {
+				position: relative;
+				color: #fff;
+				font-size: 25px;
+				margin-top: 10px;
+
+				span {
+					position: absolute;
+					top: 0;
+					right: 2px;
+					width: 7px;
+					height: 7px;
+					background-color: #c62f51;
+					border-radius: 50%;
+					border: 2px solid #c2ccc0;
+				}
+			}
+
+			.profile_img_container {
+				width: 50px;
+				height: 50px;
+				border: 0.7px solid #c2ccc0;
+				border-radius: 50%;
+
+				img {
+					padding: 3px;
+					width: 100%;
+					height: 100%;
+					border-radius: 50%;
+				}
+			}
+
+			.dropdown-icon {
+				color: #c2ccc0;
+				font-size: 22px;
+				font-weight: 600;
+				cursor: pointer;
+			}
+		}
+	}
+}
