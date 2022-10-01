@@ -76,7 +76,7 @@ const GraphCard = () => {
 					<div className="label_container">
 						<div className="top">
 							<div className="label">
-								<span className="circle" style={{ background: '##d46fe0' }}></span>
+								<span className="circle" style={{ background: '#d46fe0' }}></span>
 								Resolved
 							</div>
 
@@ -84,7 +84,7 @@ const GraphCard = () => {
 						</div>
 
 						<div className="range">
-							<div className="value" style={{ background: '##d46fe0', width: '50%' }}></div>
+							<div className="value" style={{ background: '#d46fe0', width: '50%' }}></div>
 						</div>
 					</div>
 
